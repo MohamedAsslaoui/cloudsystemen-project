@@ -1,0 +1,7 @@
+services:
+  website:
+    build: .
+    container_name: cloudsystemen-website
+    restart: always
+    ports:
+      - "3000:3000"
