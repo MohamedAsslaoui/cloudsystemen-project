@@ -1,0 +1,3 @@
+mohamed-cloudsystemen.duckdns.org {
+    reverse_proxy website:3000
+}
