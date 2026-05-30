@@ -9,7 +9,7 @@ app.use(express.static("public"));
 app.get("/", (req, res) => {
   res.render("index", {
     title: "Cloudsystemen Project",
-    message: "Deze website draait in een Docker-container achter een reverse proxy met HTTPS."
+    message: "Welkom op mijn website voor het vak Cloudsystemen."
   });
 });
 
